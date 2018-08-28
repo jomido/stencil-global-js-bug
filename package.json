@@ -1,0 +1,19 @@
+{
+  "name": "stencil-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@stencil/core": "^0.12.1",
+    "es6-tween": "5.1.0"
+  },
+  "scripts": {
+    "build": "stencil build",
+    "build-dev": "stencil build --dev",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" "
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "^0.0.18",
+    "@stencil/utils": "^0.0.4"
+  }
+}

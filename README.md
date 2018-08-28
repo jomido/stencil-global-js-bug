@@ -1,0 +1,1 @@
+# stencil-global-js-bug

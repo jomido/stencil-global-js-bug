@@ -1,0 +1,4 @@
+.stencil
+node_modules
+www
+yarn-error.log
